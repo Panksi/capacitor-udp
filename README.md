@@ -1,6 +1,6 @@
 # capacitor-udp
 
-UDP Plugin for CapacitorJS based on the UDP Plugin of https://github.com/unitree-czk/capacitor-udp which is no longer maintained. So a new repo to push the plugin to be suitable for CapacitorJS 3+.
+NOT WORKING PROTOTYPE! UDP Plugin for CapacitorJS inspired by the UDP Plugin of https://github.com/unitree-czk/capacitor-udp. General Idea behind this repo is to implement this plugin in such a way that it can be imported to Capacitor V3s.+ since Plugins import method is depricated.
 ## Install
 
 ```bash

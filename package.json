@@ -1,8 +1,8 @@
 {
-  "name": "@frontall/capacitor-udp",
-  "version": "0.3.4",
+  "name": "@panksi/capacitor-udp",
+  "version": "0.3.5",
   "private": false,
-  "description": "UDP Plugin for CapacitorJS inspired by the UDP Plugin of https://github.com/unitree-czk/capacitor-udp",
+  "description": " NOT WORKING PROTOTYPE! UDP Plugin for CapacitorJS inspired by the UDP Plugin of https://github.com/unitree-czk/capacitor-udp. General Idea behind this repo is to implement this plugin in such a way that it can be imported to Capacitor V3+ since Plugins import method is depricated",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
