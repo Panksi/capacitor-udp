@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-udp",
+  "name": "@panksi/capacitor-udp",
   "version": "0.3.5",
   "private": false,
   "description": " NOT WORKING PROTOTYPE! UDP Plugin for CapacitorJS inspired by the UDP Plugin of https://github.com/unitree-czk/capacitor-udp. General Idea behind this repo is to implement this plugin in such a way that it can be imported to Capacitor V3+ since Plugins import method is depricated",
@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Panksi/capacitor-udp.git"
+    "url": "https://github.com/panksi/capacitor-udp.git"
   },
   "bugs": {
-    "url": "https://github.com/Panksi/capacitor-udp/issues"
+    "url": "https://github.com/panksi/capacitor-udp/issues"
   },
   "keywords": [
     "capacitor",
