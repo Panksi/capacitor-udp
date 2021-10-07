@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panksi/capacitor-udp.git"
+    "url": "git+https://github.com/Panksi/capacitor-udp"
   },
   "bugs": {
-    "url": "https://github.com/panksi/capacitor-udp/issues"
+    "url": "https://github.com/Panksi/capacitor-udp/issues"
   },
   "keywords": [
     "capacitor",
