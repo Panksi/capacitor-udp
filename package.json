@@ -12,7 +12,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "FrontallCapacitorUdp.podspec"
+    "PanksiCapacitorUdp.podspec"
   ],
   "author": "Panksi",
   "license": "MIT",

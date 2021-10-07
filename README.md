@@ -4,7 +4,7 @@ NOT WORKING PROTOTYPE! UDP Plugin for CapacitorJS inspired by the UDP Plugin of 
 ## Install
 
 ```bash
-npm install @frontall/capacitor-udp
+npm install @panksi/capacitor-udp
 npx cap sync
 ```
 
