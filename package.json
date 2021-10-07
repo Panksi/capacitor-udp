@@ -14,14 +14,14 @@
     "ios/Plugin/",
     "FrontallCapacitorUdp.podspec"
   ],
-  "author": "Lieuwe van Brug",
+  "author": "Panksi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brugsel/capacitor-udp.git"
+    "url": "git+https://github.com/panksi/capacitor-udp.git"
   },
   "bugs": {
-    "url": "https://github.com/brugsel/capacitor-udp/issues"
+    "url": "https://github.com/panksi/capacitor-udp/issues"
   },
   "keywords": [
     "capacitor",
