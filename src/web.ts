@@ -4,13 +4,14 @@ import { WebPlugin } from '@capacitor/core';
 import type { UDPPlugin } from './definitions';
 
 export class UDPWeb extends WebPlugin implements UDPPlugin {
-  create(options?: {
+  async create(options?: {
     properties?: {
       name?: string;
       bufferSize?: number;
     } ;
   }): Promise<{ socketId: number; ipv4: string; ipv6: string; }> {
     console.log(options);
+    Promise.resolve({status:'error', message:'Idunno'});
     throw new Error('Method not implemented.');
   }
 }
