@@ -14,4 +14,13 @@ export class UDPWeb extends WebPlugin implements UDPPlugin {
     Promise.resolve({status:'error', message:'Idunno'});
     throw new Error('Method not implemented.');
   }
+
+  async bind(options: { socketId: number; address: string; port: number; }): Promise<void> {
+    console.log(options);
+    throw new Error('Method not implemented.');
+  }
+  async send(options: { socketId: number; address: string; port: number; buffer: string; }): Promise<void> {
+    console.log(options);
+    throw new Error('Method not implemented.');
+  }
 }

@@ -13,6 +13,8 @@ npx cap sync
 <docgen-index>
 
 * [`create(...)`](#create)
+* [`bind(...)`](#bind)
+* [`send(...)`](#send)
 
 </docgen-index>
 
@@ -28,6 +30,36 @@ create(options?: { properties?: { name?: string | undefined; bufferSize?: number
 | Param         | Type                                                                   |
 | ------------- | ---------------------------------------------------------------------- |
 | **`options`** | <code>{ properties?: { name?: string; bufferSize?: number; }; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### bind(...)
+
+```typescript
+bind(options: { socketId: number; address: string; port: number; }) => any
+```
+
+| Param         | Type                                                              |
+| ------------- | ----------------------------------------------------------------- |
+| **`options`** | <code>{ socketId: number; address: string; port: number; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### send(...)
+
+```typescript
+send(options: { socketId: number; address: string; port: number; buffer: string; }) => any
+```
+
+| Param         | Type                                                                              |
+| ------------- | --------------------------------------------------------------------------------- |
+| **`options`** | <code>{ socketId: number; address: string; port: number; buffer: string; }</code> |
 
 **Returns:** <code>any</code>
 

@@ -20,18 +20,18 @@ export interface UDPPlugin {
 
   // setPaused(options: { socketId: number; paused: boolean }): Promise<void>;
 
-  // bind(options: {
-  //   socketId: number;
-  //   address: string;
-  //   port: number;
-  // }): Promise<void>;
+  bind(options: {
+    socketId: number;
+    address: string;
+    port: number;
+  }): Promise<void>;
 
-  // send(options: {
-  //   socketId: number;
-  //   address: string;
-  //   port: number;
-  //   buffer: string;
-  // }): Promise<void>;
+  send(options: {
+    socketId: number;
+    address: string;
+    port: number;
+    buffer: string;
+  }): Promise<void>;
 
   // closeAllSockets(): Promise<void>;
 
